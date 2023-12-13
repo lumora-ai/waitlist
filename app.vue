@@ -1,7 +1,7 @@
 <template>
   <UContainer>
     <div class="w-full h-screen flex items-center justify-between">
-      <div class="w-[40%] space-y-4 my-auto">
+      <div class="md:w-[40%] space-y-4 my-auto">
         <img src="./assets/images/lumora.svg" class="z-50 mb-10 w-52" />
     
         <UBadge variant="soft" label="COMING SOON" size="lg" class="rounded-full font-bold" />
@@ -13,7 +13,7 @@
           <UButton type="submit" label="Join Waitlist" size="xl" />
         </form>
       </div>
-      <img class="w-[45%]" src="./assets/images/pattern.png" alt="Cute Pattern" />
+      <img class="hidden md:block w-[45%]" src="./assets/images/pattern.png" alt="Cute Pattern" />
     </div>
   </UContainer>
 </template>
