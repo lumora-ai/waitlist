@@ -12,6 +12,12 @@
           <UInput name="email" placeholder="Enter your Email" size="xl" class="flex-1" /> 
           <UButton type="submit" label="Join Waitlist" size="xl" />
         </form>
+        <div class="flex">
+          <span class="pr-3.5 py-2.5 font-light ">Connect with us: </span>
+          <UButton variant="ghost" square to="https://twitter.com/LumoraAI" icon="i-mdi-twitter" target="_blank" size="lg" />
+          <UButton variant="ghost" square to="https://www.instagram.com/lumora.ai/" icon="i-mdi-instagram" target="_blank" size="lg" />
+          <UButton variant="ghost" square to="https://www.linkedin.com/company/lumora-ai" icon="i-mdi-linkedin" target="_blank" size="lg" />
+        </div>
       </div>
       <img class="hidden md:block w-[45%]" src="./assets/images/pattern.png" alt="Cute Pattern" />
     </div>
