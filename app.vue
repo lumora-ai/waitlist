@@ -5,8 +5,8 @@
         <img src="./assets/images/lumora.svg" class="z-50 mb-10 w-52" />
     
         <UBadge variant="soft" label="COMING SOON" size="lg" class="rounded-full font-bold" />
-        <h1 class="text-3xl font-semibold">Explore the Depths of Your Mind</h1>
-        <span class="text-lg font-light mt-4">Build Your Brain Archive and Empower Therapists with Transformative Insights</span>
+        <h1 class="text-3xl font-semibold">Automatic personalized RTT meditations for your patients</h1>
+        <span class="text-lg font-light mt-4">Record your therapy sessions with your clients and automatically create a RTT meditation at the click of a button, highly personalized to your clients needs.</span>
     
         <form action="https://submit-form.com/sSwsq1yUB"  class="flex gap-2 w-full">
           <UInput name="email" placeholder="Enter your Email" size="xl" class="flex-1" /> 
