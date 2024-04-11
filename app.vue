@@ -6,7 +6,7 @@
         <img src="./assets/images/lumora.svg" class="z-50 mb-10 w-52" />
     
         <UBadge variant="soft" label="COMING SOON" size="lg" class="rounded-full font-bold" />
-        <h1 class="text-3xl font-semibold">Never loose a great idea again.</h1>
+        <h1 class="text-3xl font-semibold">Never lose a great idea again.</h1>
         <span class="text-lg font-light mt-4">Record thoughts right when they happen. <br /> Lumora organizes all of your thoughts into a searchable knowledge base, with an AI assistant to help connect ideas.</span>
     
         <form action="https://submit-form.com/sSwsq1yUB"  class="flex gap-2 w-full">
