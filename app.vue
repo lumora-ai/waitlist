@@ -25,3 +25,38 @@
   </div>
   <!-- </UContainer> -->
 </template>
+
+<script>
+export default {
+  name: 'IndexPage',
+  head() {
+    return {
+      title: 'The Pursuit of Happyness - Homepage',
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'The Pursuit of Happyness - Open Graph',
+        },
+        {
+          hid: 'og:type',
+          name: 'og:type',
+          content: 'website',
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content:
+            'https://res.cloudinary.com/dpkreativ/image/upload/v1648291780/nuxt-open-graph-demo/1_Y8vXN1mJeEHyXWJtFICjiQ_gocqaf.jpg',
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'A struggling salesman takes custody of his son as he is poised to begin a life-changing professional career.',
+        },
+      ],
+    }
+  },
+}
+</script>
