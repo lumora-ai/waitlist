@@ -1,5 +1,6 @@
 <template>
-  <UContainer>
+  <!-- <UContainer> -->
+  <div class="w-full h-full px-48 mx-auto">
     <div class="w-full h-screen flex items-center justify-between">
       <div class="md:w-[40%] space-y-4 my-auto">
         <img src="./assets/images/lumora.svg" class="z-50 mb-10 w-52" />
@@ -19,7 +20,8 @@
           <UButton variant="ghost" square to="https://www.linkedin.com/company/lumora-ai" icon="i-mdi-linkedin" target="_blank" size="lg" />
         </div>
       </div>
-      <img class="hidden md:block w-[45%]" src="./assets/images/pattern.png" alt="Cute Pattern" />
+      <img class="hidden md:block w-[55%]" src="./assets/images/promopage.png" alt="Cute Pattern" />
     </div>
-  </UContainer>
+  </div>
+  <!-- </UContainer> -->
 </template>
