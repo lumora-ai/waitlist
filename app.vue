@@ -1,8 +1,8 @@
 <template>
   <!-- <UContainer> -->
-  <div class="w-full h-full px-44 mx-auto">
-    <div class="w-full h-screen flex items-center justify-between">
-      <div class="md:w-[40%] space-y-4 my-auto">
+  <div class="w-full h-full px-20 lg:px-44 mx-auto">
+    <div class="w-full h-screen flex flex-col lg:flex-row items-center lg:justify-between">
+      <div class="lg:w-[40%] space-y-4 my-auto">
         <img src="./assets/images/lumora.svg" class="z-50 mb-10 w-52" />
     
         <UBadge variant="soft" label="COMING SOON" size="lg" class="rounded-full font-bold" />
@@ -20,7 +20,7 @@
           <UButton variant="ghost" square to="https://www.linkedin.com/company/lumora-ai" icon="i-mdi-linkedin" target="_blank" size="lg" />
         </div>
       </div>
-      <img class="hidden md:block w-[50%]" src="./assets/images/promopage.png" alt="Cute Pattern" />
+      <img class="lg:w-[50%]" src="./assets/images/promopage.png" alt="Cute Pattern" />
     </div>
   </div>
   <!-- </UContainer> -->
